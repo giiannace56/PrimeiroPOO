@@ -9,18 +9,18 @@ namespace Atributos_e_metodos
             //Instanciamento objeto
 
             Personagem jogador1 = new Personagem();
-            jogador1.nome = "Ednaldo Pereira";
-            jogador1.idade = 41;
-            jogador1.armadura = "Elo Do Vale nada mas Vale tudo";
+            jogador1.nome "bruno donadeimuito ";
+            jogador1.idade = 18;
+            jogador1.armadura = "tankerstitanium";
             jogador1.IA = "Talento Do Campeão";
 
 
 
 
             Personagem jogador2 = new Personagem();
-            jogador2.nome = "Nelipe Feto";
-            jogador2.idade = 32;
-            jogador2.armadura = "Escudo de hipocrísia";
+            jogador2.nome = "lucas glauberth";
+            jogador2.idade = 12;
+            jogador2.armadura = "bbs|escudo";
 
             Console.Clear();
             Console.WriteLine($"Partida {jogador1.nome} VS {jogador2.nome}");
@@ -32,9 +32,9 @@ namespace Atributos_e_metodos
             int vidaDoJogador2 = jogador2.Defender(jogador1.Atacar2());
 
             if(vidaDoJogador2 <= 0){
-                Console.WriteLine($"O Jogador Morreu");
+                Console.WriteLine($"O Jogador foi eliminado ");
             }else{
-                Console.WriteLine($"Jogador 2 Depois do ataque ficou com {jogador2.vida}");
+                Console.WriteLine($"Jogador 2 após o ataque ficou com {jogador2.vida}");
             }
         }
     }
